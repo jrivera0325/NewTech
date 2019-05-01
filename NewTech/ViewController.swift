@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource{
    @IBOutlet weak var tableView1: UITableView!
+    
+    
+    
    
     override func viewDidLoad() {
         tableView1.dataSource = self
