@@ -8,7 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDataSource{
+var text = ["Desktop","Laptop", "Cool gadgets", "latest tech"]
+
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    @IBOutlet weak var tableView1: UITableView!
    
     override func viewDidLoad() {
@@ -17,11 +19,13 @@ class ViewController: UIViewController,UITableViewDataSource{
        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return text.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
+        cell.textLabel?.text = text[indexPath.row]
+        return cell
     }
 
 }
