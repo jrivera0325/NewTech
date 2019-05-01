@@ -9,8 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource{
-    
-    
+   @IBOutlet weak var tableView1: UITableView!
+   
+    override func viewDidLoad() {
+        tableView1.dataSource = self
+        super.viewDidLoad()
+       
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         <#code#>
     }
@@ -18,14 +23,6 @@ class ViewController: UIViewController,UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         <#code#>
     }
-    
-    @IBOutlet weak var tableView1: UITableView!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
 
 }
 
