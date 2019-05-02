@@ -11,10 +11,6 @@ import UIKit
 class ViewController: UIViewController,UITableViewDataSource{
    @IBOutlet weak var tableView1: UITableView!
     var techs:[tech] = []
-    
-    
-    
-   
     override func viewDidLoad() {
         tableView1.dataSource = self
         super.viewDidLoad()
