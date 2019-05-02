@@ -12,7 +12,7 @@ var text = ["Desktop","Laptop", "Cool gadgets", "latest tech"]
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    @IBOutlet weak var tableView1: UITableView!
-    var techs:[tech] = []
+   
     override func viewDidLoad() {
         tableView1.dataSource = self
         super.viewDidLoad()
