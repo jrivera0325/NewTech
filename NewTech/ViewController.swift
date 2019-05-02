@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView1.dataSource = self
         super.viewDidLoad()
        
+        let homeImages: [UIImage] = [UIImage(named: "homeDesktopImage")!, UIImage(named: "razerLaptopImage")!, UIImage(named: "coolGadgetsImage")!, UIImage(named: "latestTech")!]
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return text.count
