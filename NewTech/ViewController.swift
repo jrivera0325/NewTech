@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource{
    @IBOutlet weak var tableView1: UITableView!
+    var techs:[tech] = []
     
     
     
