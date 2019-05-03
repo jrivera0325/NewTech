@@ -9,6 +9,7 @@
 import UIKit
 
 var text = ["Desktop","Laptop", "Cool gadgets", "latest tech"]
+var homeImages: [UIImage] = [UIImage(named: "homeDesktopImage")!, UIImage(named: "razerLaptopImage")!, UIImage(named: "coolGadgetsImage")!, UIImage(named: "latestTech")!]
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    @IBOutlet weak var tableView1: UITableView!
@@ -17,7 +18,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView1.dataSource = self
         super.viewDidLoad()
        
-        let homeImages: [UIImage] = [UIImage(named: "homeDesktopImage")!, UIImage(named: "razerLaptopImage")!, UIImage(named: "coolGadgetsImage")!, UIImage(named: "latestTech")!]
         
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
