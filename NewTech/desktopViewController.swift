@@ -9,27 +9,27 @@
 import UIKit
 
 var desktopModel = ["Dell Desktop PC Tower System Windows 10", "Dell Dual Monitor Desktop Computer Bundle Windows 10", "Dell Optiplex Windows 10 Professional Desktop Computer Bundle"]
-
+var desktopImages: [UIImage] = [UIImage(named: "dellDeskTop")!, UIImage(named: "dualMonitor")!, UIImage(named: "dellOptiplex")!]
 
 class desktopViewController: UIViewController, UITableViewDataSource,UITableViewDelegate{
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return desktopModel.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let desktopCell = tableview2.dequeueReusableCell(withIdentifier:"desktopCell")! as UITableViewCell
-        desktopCell.textLabel?.text = text[indexPath.row]
-        return desktopCell
-    }
-    
     @IBOutlet weak var tableview2: UITableView!
     
     override func viewDidLoad() {
+        tableview2.dataSource = self
         super.viewDidLoad()
         
         
     }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let desktopCell = tableview2.dequeueReusableCell(withIdentifier:"desktopCell")! as UITableViewCell
+        desktopCell.textLabel?.text = desktopModel[indexPath.row]
+        return desktopCell
+  
     
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return desktopModel.count
+    }
     
     
     
