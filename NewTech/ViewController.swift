@@ -8,15 +8,16 @@
 
 import UIKit
 
-var text = ["Desktop","Laptop", "Cool gadgets", "latest tech"]
-var homeImages: [UIImage] = [UIImage(named: "homeDesktopImage")!, UIImage(named: "razerLaptopImage")!, UIImage(named: "coolGadgetsImage")!, UIImage(named: "latestTech")!]
-
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    @IBOutlet weak var tableView1: UITableView!
-   
+    
+    var text: [String] = ["Desktop","Laptop", "Cool gadgets", "latest tech"]
+    var homeImages: [UIImage] = [UIImage(named: "desktop")!, UIImage(named: "Laptop")!, UIImage(named: "coolGadgets")!, UIImage(named: "latestTech")!]
+    
     override func viewDidLoad() {
         tableView1.dataSource = self
         super.viewDidLoad()
+        
        
         
     }
@@ -25,8 +26,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")! as UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = text[indexPath.row]
+        cell.imageView?.image = homeImages[indexPath.row]
         return cell
     }
 
