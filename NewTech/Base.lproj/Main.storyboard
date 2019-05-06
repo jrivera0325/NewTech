@@ -83,7 +83,7 @@
                                 <rect key="frame" x="0.0" y="70" width="768" height="954"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationLevel="1" indentationWidth="10" reuseIdentifier="desktopCell" textLabel="jIm-sw-vZ2" style="IBUITableViewCellStyleDefault" id="EXI-I8-JiV">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" indentationLevel="1" indentationWidth="10" reuseIdentifier="desktopCell" textLabel="jIm-sw-vZ2" imageView="8Za-yh-7DV" style="IBUITableViewCellStyleDefault" id="EXI-I8-JiV">
                                         <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EXI-I8-JiV" id="e7v-L4-EaN">
@@ -91,12 +91,16 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIm-sw-vZ2">
-                                                    <rect key="frame" x="25" y="0.0" width="728" height="43.5"/>
+                                                    <rect key="frame" x="90" y="0.0" width="663" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="dellDeskTop" id="8Za-yh-7DV">
+                                                    <rect key="frame" x="15" y="0.0" width="50" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -118,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ViD-Ub-XgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1413" y="115"/>
+            <point key="canvasLocation" x="1412.5" y="114.84374999999999"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="l4r-lx-dXo">
@@ -170,6 +174,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dellDeskTop" width="190" height="166"/>
         <image name="homeDesktopImage" width="225" height="225"/>
     </resources>
 </document>
