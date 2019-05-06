@@ -43,7 +43,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="wMA-3X-QWp" kind="show" id="9Ol-1y-zXB"/>
+                                            <segue destination="wMA-3X-QWp" kind="show" identifier="segue" id="9Ol-1y-zXB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
