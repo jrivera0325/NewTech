@@ -43,7 +43,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="wMA-3X-QWp" kind="show" identifier="segue" id="9Ol-1y-zXB"/>
+                                            <segue destination="wMA-3X-QWp" kind="show" identifier="desktopSegue" id="9Ol-1y-zXB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -65,11 +65,59 @@
                     <navigationItem key="navigationItem" id="Kym-ao-XdH"/>
                     <connections>
                         <outlet property="tableView1" destination="gy8-Xo-hyi" id="9JL-Tq-111"/>
+                        <segue destination="nZP-zw-ABK" kind="show" identifier="laptopSegue" id="RAS-md-3nR"/>
+                        <segue destination="rBP-on-q8m" kind="show" identifier="newTechSegue" id="4dX-PL-Skp"/>
+                        <segue destination="Ctu-Ag-EHa" kind="show" identifier="coolGadgetSegue" id="1se-RC-pi1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="708" y="115"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xQj-cg-wgJ">
+            <objects>
+                <viewController id="nZP-zw-ABK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jpe-7e-PEB">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="WcN-Ub-4Sz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJG-GH-WON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="80"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9Vb-1a-X37">
+            <objects>
+                <viewController id="rBP-on-q8m" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3fh-VJ-cKT">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CB2-Tx-iM0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4TN-Op-PPr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="804"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iZd-NC-qcV">
+            <objects>
+                <viewController id="Ctu-Ag-EHa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4t2-hF-T21">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HSB-JA-siV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aXv-je-IMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="1503"/>
         </scene>
         <!--Desktop View Controller-->
         <scene sceneID="Oiv-gG-tOX">
@@ -91,13 +139,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jIm-sw-vZ2">
-                                                    <rect key="frame" x="90" y="0.0" width="663" height="43.5"/>
+                                                    <rect key="frame" x="25" y="0.0" width="728" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="dellDeskTop" id="8Za-yh-7DV">
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8Za-yh-7DV">
                                                     <rect key="frame" x="15" y="0.0" width="50" height="43.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </imageView>
@@ -122,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ViD-Ub-XgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1412.5" y="114.84374999999999"/>
+            <point key="canvasLocation" x="1409" y="-612"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="l4r-lx-dXo">
@@ -174,7 +222,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dellDeskTop" width="190" height="166"/>
         <image name="homeDesktopImage" width="225" height="225"/>
     </resources>
 </document>

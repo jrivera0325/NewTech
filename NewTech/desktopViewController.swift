@@ -23,14 +23,29 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let desktopCell = tableview2.dequeueReusableCell(withIdentifier:"desktopCell")! as UITableViewCell
         desktopCell.textLabel?.text = desktopModel[indexPath.row]
+        desktopCell.imageView?.image = desktopImages[indexPath.row]
         return desktopCell
-  
-    
+        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return desktopModel.count
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdintifier: String
+        switch indexPath.row{
+        case 0:
+            segueIdintifier = "desktopSegue"
+        case 1:
+            segueIdintifier = "laptopSegue"
+        case 2:
+            segueIdintifier = "newTechSegue"
+        case 3:
+            segueIdintifier = "coolTechSegue"
+        default:
+            segueIdintifier = "desktopSegue"
+        }
+    }
     
     
 }
