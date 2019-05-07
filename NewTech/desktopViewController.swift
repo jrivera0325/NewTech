@@ -31,21 +31,7 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
         return desktopModel.count
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let segueIdintifier: String
-        switch indexPath.row{
-        case 0:
-            segueIdintifier = "desktopSegue"
-        case 1:
-            segueIdintifier = "laptopSegue"
-        case 2:
-            segueIdintifier = "newTechSegue"
-        case 3:
-            segueIdintifier = "coolTechSegue"
-        default:
-            segueIdintifier = "desktopSegue"
-        }
-    }
+   
     
     
 }

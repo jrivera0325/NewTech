@@ -31,6 +31,25 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.imageView?.image = homeImages[indexPath.row]
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdintifier: String
+        switch indexPath.row{
+        case 0:
+            segueIdintifier = "desktopSegue"
+        case 1:
+            segueIdintifier = "laptopSegue"
+        case 2:
+            segueIdintifier = "coolGadgetSegue"
+        case 3:
+            segueIdintifier = "newTechSegue"
+        default:
+            segueIdintifier = "desktopSegue"
+        }
+        self.performSegue(withIdentifier: segueIdintifier, sender: self)
+    }
+    
+    
 
 }
 

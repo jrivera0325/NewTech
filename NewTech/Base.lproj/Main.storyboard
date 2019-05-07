@@ -42,9 +42,6 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="wMA-3X-QWp" kind="show" identifier="desktopSegue" id="9Ol-1y-zXB"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -68,6 +65,7 @@
                         <segue destination="nZP-zw-ABK" kind="show" identifier="laptopSegue" id="RAS-md-3nR"/>
                         <segue destination="rBP-on-q8m" kind="show" identifier="newTechSegue" id="4dX-PL-Skp"/>
                         <segue destination="Ctu-Ag-EHa" kind="show" identifier="coolGadgetSegue" id="1se-RC-pi1"/>
+                        <segue destination="wMA-3X-QWp" kind="show" identifier="desktopSegue" id="p6i-61-3dj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
