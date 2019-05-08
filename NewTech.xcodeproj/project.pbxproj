@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D2B4A472281EAA200C4A1D6 /* laptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B4A462281EAA200C4A1D6 /* laptopViewController.swift */; };
+		9D2B4A492281EB0200C4A1D6 /* newTechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B4A482281EB0200C4A1D6 /* newTechViewController.swift */; };
+		9D2B4A4B2281EB2C00C4A1D6 /* coolGadgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B4A4A2281EB2C00C4A1D6 /* coolGadgetViewController.swift */; };
 		C5EFC3F82279FFF600E28528 /* desktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFC3F72279FFF600E28528 /* desktopViewController.swift */; };
 		C5FD02382278AD24008702BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD02372278AD24008702BA /* AppDelegate.swift */; };
 		C5FD023A2278AD24008702BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD02392278AD24008702BA /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D2B4A462281EAA200C4A1D6 /* laptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laptopViewController.swift; sourceTree = "<group>"; };
+		9D2B4A482281EB0200C4A1D6 /* newTechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newTechViewController.swift; sourceTree = "<group>"; };
+		9D2B4A4A2281EB2C00C4A1D6 /* coolGadgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolGadgetViewController.swift; sourceTree = "<group>"; };
 		C5EFC3F72279FFF600E28528 /* desktopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desktopViewController.swift; sourceTree = "<group>"; };
 		C5FD02342278AD24008702BA /* NewTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FD02372278AD24008702BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 				C5FD02372278AD24008702BA /* AppDelegate.swift */,
 				C5FD02392278AD24008702BA /* ViewController.swift */,
 				C5FD023B2278AD24008702BA /* Main.storyboard */,
+				9D2B4A4A2281EB2C00C4A1D6 /* coolGadgetViewController.swift */,
+				9D2B4A482281EB0200C4A1D6 /* newTechViewController.swift */,
+				9D2B4A462281EAA200C4A1D6 /* laptopViewController.swift */,
 				C5EFC3F72279FFF600E28528 /* desktopViewController.swift */,
 				C5FD023E2278AD27008702BA /* Assets.xcassets */,
 				C5FD02402278AD27008702BA /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B4A472281EAA200C4A1D6 /* laptopViewController.swift in Sources */,
+				9D2B4A4B2281EB2C00C4A1D6 /* coolGadgetViewController.swift in Sources */,
 				C5FD023A2278AD24008702BA /* ViewController.swift in Sources */,
+				9D2B4A492281EB0200C4A1D6 /* newTechViewController.swift in Sources */,
 				C5FD02382278AD24008702BA /* AppDelegate.swift in Sources */,
 				C5EFC3F82279FFF600E28528 /* desktopViewController.swift in Sources */,
 			);
