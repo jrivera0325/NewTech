@@ -8,14 +8,11 @@
 
 import UIKit
 
+var laptopModel = ["Huawei Matebook X pro signature edition thin and light laptop", "Microsoft surface Laptop 2", "2019 Dell XPS 13 9380"]
+var laptopImages:[UIImage] = [UIImage(named: "Dell XPS")!, UIImage(named:"Matebook")!, UIImage(named:"surface 2")!]
+
 class laptopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
-    }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
     
     @IBOutlet weak var tableView3: UITableView!
     
@@ -25,16 +22,17 @@ class laptopViewController: UIViewController,UITableViewDelegate,UITableViewData
 
         // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return laptopModel.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let laptopCell = tableView3.dequeueReusableCell(withIdentifier: "laptopCell")! as UITableViewCell
+        laptopCell.textLabel?.text = laptopModel[indexPath.row]
+        laptopCell.imageView?.image = laptopImages[indexPath.row]
+        return laptopCell
+        
+    }
 
+    
 }
