@@ -8,6 +8,8 @@
 
 import UIKit
 
+var coolGadgets = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB",  ]
+
 class coolGadgetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         <#code#>

@@ -8,7 +8,8 @@
 
 import UIKit
 
-var newTech = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB" ]
+var newTech = ["Galaxy fold","iPhone XS","Google Home Hub"]
+var newTechImages:[UIImage] = [UIImage(named:"Galaxy Fold")!, UIImage(named: "Google Home Hub")!, UIImage(named: "iphone xs")!]
 
 class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
@@ -22,11 +23,11 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
        
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return newTech.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let newTechCell = 
     }
     
 
