@@ -27,7 +27,10 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let newTechCell = 
+        let newTechCell = tableview4.dequeueReusableCell(withIdentifier:"newTechCell")! as UITableViewCell
+        newTechCell.textLabel?.text = newTech[indexPath.row]
+        newTechCell.imageView?.image = newTechImages[indexPath.row]
+        
     }
     
 
