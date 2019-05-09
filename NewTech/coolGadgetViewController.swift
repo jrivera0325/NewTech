@@ -10,7 +10,7 @@ import UIKit
 
 var coolGadgets = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB", "UPERFECT Portable Monitor"  ]
 
-
+ class coolGadgetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView5: UITableView!
     
     override func viewDidLoad() {
@@ -20,7 +20,6 @@ var coolGadgets = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB"
       
     }
     
-    class coolGadgetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return coolGadgets.count
         }
