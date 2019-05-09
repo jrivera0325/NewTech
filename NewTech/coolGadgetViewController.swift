@@ -9,6 +9,7 @@
 import UIKit
 
 var coolGadgets = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB", "UPERFECT Portable Monitor"  ]
+var coolGadgetImages: [UIImage] = [UIImage (named: "UPERFECT Portable Monitor")!, UIImage (named: "Seek Wirless Tracker")!, UIImage(named: "Cube Works Self destruction USB 3.0 HUB")!]
 
  class coolGadgetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView5: UITableView!
@@ -27,6 +28,7 @@ var coolGadgets = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB"
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let coolGadgetsCell = tableView5.dequeueReusableCell(withIdentifier: "coolGadgetCell")! as UITableViewCell
             coolGadgetsCell.textLabel?.text = coolGadgets[indexPath.row]
+            coolGadgetsCell.imageView?.image = coolGadgetImages[indexPath.row]
             return coolGadgetsCell
         }
         
