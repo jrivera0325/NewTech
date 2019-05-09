@@ -30,7 +30,7 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
         let newTechCell = tableview4.dequeueReusableCell(withIdentifier:"newTechCell")! as UITableViewCell
         newTechCell.textLabel?.text = newTech[indexPath.row]
         newTechCell.imageView?.image = newTechImages[indexPath.row]
-        
+        return newTechCell
     }
     
 
