@@ -9,7 +9,7 @@
 import UIKit
 
 var laptopModel = ["Huawei Matebook X pro signature edition thin and light laptop", "Microsoft surface Laptop 2", "2019 Dell XPS 13 9380"]
-var laptopImages:[UIImage] = [UIImage(named: "Dell XPS")!, UIImage(named:"Matebook")!, UIImage(named:"surface 2")!]
+var laptopImages:[UIImage] = [UIImage(named:"Dell XPS")!, UIImage(named:"Matebook")!, UIImage(named:"surface 2")!]
 
 class laptopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
