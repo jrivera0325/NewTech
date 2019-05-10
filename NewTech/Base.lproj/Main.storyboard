@@ -115,11 +115,59 @@
                     </view>
                     <connections>
                         <outlet property="tableView3" destination="wwt-os-7zN" id="oQX-gW-n6D"/>
+                        <segue destination="73k-ri-SPu" kind="show" identifier="laptop1" id="O2j-ue-GpJ"/>
+                        <segue destination="NlG-lB-i9t" kind="show" identifier="laptop2" id="HkO-0o-NhO"/>
+                        <segue destination="zZ3-Ma-9za" kind="show" identifier="laptop3" id="eqy-cx-Pde"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VJG-GH-WON" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1409" y="80"/>
+        </scene>
+        <!--Laptop1 View Controller-->
+        <scene sceneID="5Bu-i1-naA">
+            <objects>
+                <viewController id="73k-ri-SPu" customClass="laptop1ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LWw-NZ-gY3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BFA-wz-OJS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZYr-va-f17" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2175" y="115"/>
+        </scene>
+        <!--Laptop2 View Controller-->
+        <scene sceneID="PeN-50-6po">
+            <objects>
+                <viewController id="NlG-lB-i9t" customClass="laptop2ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ilE-za-fQB">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3eV-4F-257"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KTL-Ja-7uL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2879" y="115"/>
+        </scene>
+        <!--Laptop3 View Controller-->
+        <scene sceneID="6S4-zM-JBc">
+            <objects>
+                <viewController id="zZ3-Ma-9za" customClass="laptop3ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m5q-wm-5Az">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ffa-OI-deF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1kW-Ei-n0q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3616" y="108"/>
         </scene>
         <!--New Tech View Controller-->
         <scene sceneID="9Vb-1a-X37">
@@ -164,11 +212,59 @@
                     </view>
                     <connections>
                         <outlet property="tableview4" destination="Rqt-RE-2D5" id="PUL-e5-nWQ"/>
+                        <segue destination="RY0-MO-3nr" kind="show" identifier="newtech1" id="c0v-li-PQc"/>
+                        <segue destination="vCQ-Uw-7UB" kind="show" identifier="newtech2" id="unB-AJ-b8l"/>
+                        <segue destination="huW-wZ-CDS" kind="show" identifier="newtech3" id="iqE-i6-ena"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4TN-Op-PPr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1409" y="804"/>
+        </scene>
+        <!--Newtech1 View Controller-->
+        <scene sceneID="HZr-2N-7P9">
+            <objects>
+                <viewController id="RY0-MO-3nr" customClass="newtech1ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rgE-dr-QOx">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8ZB-ac-Llf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0O-39-FSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2142" y="809"/>
+        </scene>
+        <!--Newtech2 View Controller-->
+        <scene sceneID="r9Y-FI-5sk">
+            <objects>
+                <viewController id="vCQ-Uw-7UB" customClass="newtech2ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P6n-q1-Lpm">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mio-Kl-gmS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lFl-sj-8La" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2816" y="809"/>
+        </scene>
+        <!--Newtech3 View Controller-->
+        <scene sceneID="Qhn-Uc-oen">
+            <objects>
+                <viewController id="huW-wZ-CDS" customClass="newtech3ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iyn-Zf-OlZ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9xc-J5-Y07"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CrX-SZ-TTy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3529" y="809"/>
         </scene>
         <!--Cool Gadget View Controller-->
         <scene sceneID="iZd-NC-qcV">
@@ -213,11 +309,59 @@
                     </view>
                     <connections>
                         <outlet property="tableView5" destination="Um1-QS-FJ0" id="38G-pD-piw"/>
+                        <segue destination="gZ3-Qc-MBn" kind="show" identifier="coolgadget1" id="qjn-mJ-qcB"/>
+                        <segue destination="ceA-W2-bqY" kind="show" identifier="coolgadget2" id="ZpB-su-k0J"/>
+                        <segue destination="Pdl-0H-JZA" kind="show" identifier="coolgadget3" id="PfS-qt-0ym"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aXv-je-IMy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1409" y="1503"/>
+        </scene>
+        <!--Coolgadget1 View Controller-->
+        <scene sceneID="qPj-ea-Rjf">
+            <objects>
+                <viewController id="gZ3-Qc-MBn" customClass="coolgadget1ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iB2-Lh-vw5">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Prm-Ii-Awr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v6h-RQ-VVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2138" y="1501"/>
+        </scene>
+        <!--Coolgadget2 View Controller-->
+        <scene sceneID="rsa-xn-vkE">
+            <objects>
+                <viewController id="ceA-W2-bqY" customClass="coolgadget2ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vlN-XW-6Cw">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="se1-sH-vOA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ebK-LA-evz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2800" y="1499"/>
+        </scene>
+        <!--Coolgadget3 View Controller-->
+        <scene sceneID="J1a-M9-Hr9">
+            <objects>
+                <viewController id="Pdl-0H-JZA" customClass="coolgadget3ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H6j-OD-nvh">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="w0a-FU-O3e"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g7P-7E-JuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3485" y="1499"/>
         </scene>
         <!--Desktop View Controller-->
         <scene sceneID="Oiv-gG-tOX">
@@ -266,16 +410,19 @@
                     </view>
                     <connections>
                         <outlet property="tableview2" destination="4JK-Dk-XHq" id="6dW-OX-TX7"/>
+                        <segue destination="ulj-e6-tCb" kind="show" identifier="desktop1" id="Bc7-6Z-it6"/>
+                        <segue destination="f1O-tp-kQC" kind="show" identifier="desktop2" id="Tds-2V-fdt"/>
+                        <segue destination="O5h-QV-XAS" kind="show" identifier="desktop3" id="Tk6-am-yly"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ViD-Ub-XgP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1409" y="-612"/>
         </scene>
-        <!--View Controller-->
+        <!--Desktop1 View Controller-->
         <scene sceneID="l4r-lx-dXo">
             <objects>
-                <viewController id="ulj-e6-tCb" sceneMemberID="viewController">
+                <viewController id="ulj-e6-tCb" customClass="desktop1ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XMh-Gl-Noj">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -285,12 +432,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4j-zn-LcB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2187" y="115"/>
+            <point key="canvasLocation" x="2175" y="-1153"/>
         </scene>
-        <!--View Controller-->
+        <!--Desktop2 View Controller-->
         <scene sceneID="NrN-xl-giq">
             <objects>
-                <viewController id="f1O-tp-kQC" sceneMemberID="viewController">
+                <viewController id="f1O-tp-kQC" customClass="desktop2ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mYh-be-HcM">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -300,7 +447,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oYn-iB-hdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3018" y="115"/>
+            <point key="canvasLocation" x="2175" y="-526"/>
+        </scene>
+        <!--Desktop3 View Controller-->
+        <scene sceneID="s78-00-Bvn">
+            <objects>
+                <viewController id="O5h-QV-XAS" customClass="desktop3ViewController" customModule="NewTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RTz-Wo-ezG">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="MWO-MB-oLj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qvx-nT-KpU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2803" y="-709"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8ru-hP-hnN">

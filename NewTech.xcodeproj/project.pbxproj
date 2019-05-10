@@ -10,6 +10,18 @@
 		9D2B4A472281EAA200C4A1D6 /* laptopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B4A462281EAA200C4A1D6 /* laptopViewController.swift */; };
 		9D2B4A492281EB0200C4A1D6 /* newTechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B4A482281EB0200C4A1D6 /* newTechViewController.swift */; };
 		9D2B4A4B2281EB2C00C4A1D6 /* coolGadgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B4A4A2281EB2C00C4A1D6 /* coolGadgetViewController.swift */; };
+		9DB9E70F2285DC22005AF04F /* desktop1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E70E2285DC22005AF04F /* desktop1ViewController.swift */; };
+		9DB9E7112285DC59005AF04F /* desktop2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7102285DC59005AF04F /* desktop2ViewController.swift */; };
+		9DB9E7132285DC8C005AF04F /* desktop3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7122285DC8C005AF04F /* desktop3ViewController.swift */; };
+		9DB9E7152285DCF5005AF04F /* laptop1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7142285DCF5005AF04F /* laptop1ViewController.swift */; };
+		9DB9E7172285DD33005AF04F /* laptop2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7162285DD33005AF04F /* laptop2ViewController.swift */; };
+		9DB9E7192285DD5B005AF04F /* laptop3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7182285DD5B005AF04F /* laptop3ViewController.swift */; };
+		9DB9E71B2285DD9E005AF04F /* newtech1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E71A2285DD9E005AF04F /* newtech1ViewController.swift */; };
+		9DB9E71D2285DDCF005AF04F /* newtech2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E71C2285DDCF005AF04F /* newtech2ViewController.swift */; };
+		9DB9E71F2285DE01005AF04F /* newtech3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E71E2285DE01005AF04F /* newtech3ViewController.swift */; };
+		9DB9E7212285DE4A005AF04F /* coolgadget1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7202285DE4A005AF04F /* coolgadget1ViewController.swift */; };
+		9DB9E7232285DE75005AF04F /* coolgadget2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7222285DE75005AF04F /* coolgadget2ViewController.swift */; };
+		9DB9E7252285DE9C005AF04F /* coolgadget3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E7242285DE9C005AF04F /* coolgadget3ViewController.swift */; };
 		C5EFC3F82279FFF600E28528 /* desktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFC3F72279FFF600E28528 /* desktopViewController.swift */; };
 		C5FD02382278AD24008702BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD02372278AD24008702BA /* AppDelegate.swift */; };
 		C5FD023A2278AD24008702BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FD02392278AD24008702BA /* ViewController.swift */; };
@@ -22,6 +34,18 @@
 		9D2B4A462281EAA200C4A1D6 /* laptopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laptopViewController.swift; sourceTree = "<group>"; };
 		9D2B4A482281EB0200C4A1D6 /* newTechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newTechViewController.swift; sourceTree = "<group>"; };
 		9D2B4A4A2281EB2C00C4A1D6 /* coolGadgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolGadgetViewController.swift; sourceTree = "<group>"; };
+		9DB9E70E2285DC22005AF04F /* desktop1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desktop1ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7102285DC59005AF04F /* desktop2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desktop2ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7122285DC8C005AF04F /* desktop3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desktop3ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7142285DCF5005AF04F /* laptop1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laptop1ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7162285DD33005AF04F /* laptop2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laptop2ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7182285DD5B005AF04F /* laptop3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laptop3ViewController.swift; sourceTree = "<group>"; };
+		9DB9E71A2285DD9E005AF04F /* newtech1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newtech1ViewController.swift; sourceTree = "<group>"; };
+		9DB9E71C2285DDCF005AF04F /* newtech2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newtech2ViewController.swift; sourceTree = "<group>"; };
+		9DB9E71E2285DE01005AF04F /* newtech3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newtech3ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7202285DE4A005AF04F /* coolgadget1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolgadget1ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7222285DE75005AF04F /* coolgadget2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolgadget2ViewController.swift; sourceTree = "<group>"; };
+		9DB9E7242285DE9C005AF04F /* coolgadget3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coolgadget3ViewController.swift; sourceTree = "<group>"; };
 		C5EFC3F72279FFF600E28528 /* desktopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desktopViewController.swift; sourceTree = "<group>"; };
 		C5FD02342278AD24008702BA /* NewTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FD02372278AD24008702BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +89,18 @@
 				C5FD02372278AD24008702BA /* AppDelegate.swift */,
 				C5FD02392278AD24008702BA /* ViewController.swift */,
 				C5FD023B2278AD24008702BA /* Main.storyboard */,
+				9DB9E7242285DE9C005AF04F /* coolgadget3ViewController.swift */,
+				9DB9E7222285DE75005AF04F /* coolgadget2ViewController.swift */,
+				9DB9E7202285DE4A005AF04F /* coolgadget1ViewController.swift */,
+				9DB9E71E2285DE01005AF04F /* newtech3ViewController.swift */,
+				9DB9E71C2285DDCF005AF04F /* newtech2ViewController.swift */,
+				9DB9E71A2285DD9E005AF04F /* newtech1ViewController.swift */,
+				9DB9E7182285DD5B005AF04F /* laptop3ViewController.swift */,
+				9DB9E7162285DD33005AF04F /* laptop2ViewController.swift */,
+				9DB9E7142285DCF5005AF04F /* laptop1ViewController.swift */,
+				9DB9E7122285DC8C005AF04F /* desktop3ViewController.swift */,
+				9DB9E7102285DC59005AF04F /* desktop2ViewController.swift */,
+				9DB9E70E2285DC22005AF04F /* desktop1ViewController.swift */,
 				9D2B4A4A2281EB2C00C4A1D6 /* coolGadgetViewController.swift */,
 				9D2B4A482281EB0200C4A1D6 /* newTechViewController.swift */,
 				9D2B4A462281EAA200C4A1D6 /* laptopViewController.swift */,
@@ -147,11 +183,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB9E7232285DE75005AF04F /* coolgadget2ViewController.swift in Sources */,
 				9D2B4A472281EAA200C4A1D6 /* laptopViewController.swift in Sources */,
 				9D2B4A4B2281EB2C00C4A1D6 /* coolGadgetViewController.swift in Sources */,
+				9DB9E7152285DCF5005AF04F /* laptop1ViewController.swift in Sources */,
+				9DB9E7212285DE4A005AF04F /* coolgadget1ViewController.swift in Sources */,
+				9DB9E7112285DC59005AF04F /* desktop2ViewController.swift in Sources */,
+				9DB9E7192285DD5B005AF04F /* laptop3ViewController.swift in Sources */,
+				9DB9E71F2285DE01005AF04F /* newtech3ViewController.swift in Sources */,
+				9DB9E71B2285DD9E005AF04F /* newtech1ViewController.swift in Sources */,
+				9DB9E71D2285DDCF005AF04F /* newtech2ViewController.swift in Sources */,
+				9DB9E70F2285DC22005AF04F /* desktop1ViewController.swift in Sources */,
+				9DB9E7252285DE9C005AF04F /* coolgadget3ViewController.swift in Sources */,
 				C5FD023A2278AD24008702BA /* ViewController.swift in Sources */,
 				9D2B4A492281EB0200C4A1D6 /* newTechViewController.swift in Sources */,
 				C5FD02382278AD24008702BA /* AppDelegate.swift in Sources */,
+				9DB9E7172285DD33005AF04F /* laptop2ViewController.swift in Sources */,
+				9DB9E7132285DC8C005AF04F /* desktop3ViewController.swift in Sources */,
 				C5EFC3F82279FFF600E28528 /* desktopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
