@@ -9,7 +9,7 @@
 import UIKit
 
 var newTech = ["Galaxy fold","iPhone XS","Google Home Hub"]
-var newTechImages:[UIImage] = [UIImage(named:"Galaxy Fold")!, UIImage(named: "Google Home Hub")!, UIImage(named: "iphone xs")!]
+var newTechImages:[UIImage] = [UIImage(named:"Galaxy Fold")!, UIImage(named: "iphone xs")!, UIImage(named: "Google Home Hub")!]
 
 class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     

@@ -9,7 +9,7 @@
 import UIKit
 
 var coolGadgets = ["Seek Wirless Tracker","Cube Works Self destruct USB 3.0 HUB", "UPERFECT Portable Monitor"  ]
-var coolGadgetImages: [UIImage] = [UIImage (named: "UPERFECT Portable Monitor")!, UIImage (named: "Seek Wirless Tracker")!, UIImage(named: "Cube Works Self destruction USB 3.0 HUB")!]
+var coolGadgetImages: [UIImage] = [UIImage (named: "Seek Wirless Tracker")!, UIImage (named: "Cube Works Self destruction USB 3.0 HUB")!, UIImage(named: "UPERFECT Portable Monitor")!]
 
  class coolGadgetViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView5: UITableView!
