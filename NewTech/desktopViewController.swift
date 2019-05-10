@@ -18,8 +18,8 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
         tableview2.dataSource = self
         super.viewDidLoad()
         
-        
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let desktopCell = tableview2.dequeueReusableCell(withIdentifier:"desktopCell")! as UITableViewCell
         desktopCell.textLabel?.text = desktopModel[indexPath.row]
