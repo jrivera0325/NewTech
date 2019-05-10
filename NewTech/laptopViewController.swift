@@ -20,8 +20,8 @@ class laptopViewController: UIViewController,UITableViewDelegate,UITableViewData
         tableView3.dataSource = self
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return laptopModel.count
     }

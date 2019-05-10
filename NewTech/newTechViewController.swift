@@ -20,8 +20,8 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
         tableview4.dataSource = self
         super.viewDidLoad()
 
-       
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return newTech.count
     }
