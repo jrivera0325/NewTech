@@ -31,6 +31,20 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
         return desktopModel.count
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdintifier: String
+        switch indexPath.row{
+        case 0:
+            segueIdintifier = "desktop1"
+        case 1:
+            segueIdintifier = "desktop2"
+        case 2:
+            segueIdintifier = "desktop3"
+      default:
+            segueIdintifier = "desktop1"
+        }
+        self.performSegue(withIdentifier: segueIdintifier, sender: self)
+    }
    
     
     
