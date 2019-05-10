@@ -31,6 +31,22 @@ var coolGadgetImages: [UIImage] = [UIImage (named: "Seek Wirless Tracker")!, UII
             coolGadgetsCell.imageView?.image = coolGadgetImages[indexPath.row]
             return coolGadgetsCell
         }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdintifier: String
+        switch indexPath.row{
+        case 0:
+            segueIdintifier = "coolgadget1"
+        case 1:
+            segueIdintifier = "coolgadget2"
+        case 2:
+            segueIdintifier = "coolgadget3"
+        default:
+            segueIdintifier = "Coolgadget1"
+        }
+        self.performSegue(withIdentifier: segueIdintifier, sender: self)
+    }
+    
         
   
 

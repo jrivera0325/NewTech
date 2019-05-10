@@ -33,6 +33,22 @@ class laptopViewController: UIViewController,UITableViewDelegate,UITableViewData
         return laptopCell
         
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdintifier: String
+        switch indexPath.row{
+        case 0:
+            segueIdintifier = "laptop1"
+        case 1:
+            segueIdintifier = "laptop2"
+        case 2:
+            segueIdintifier = "laptop3"
+        default:
+            segueIdintifier = "laptop1"
+        }
+        self.performSegue(withIdentifier: segueIdintifier, sender: self)
+    }
+    
 
     
 }

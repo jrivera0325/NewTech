@@ -32,6 +32,21 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
         newTechCell.imageView?.image = newTechImages[indexPath.row]
         return newTechCell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdintifier: String
+        switch indexPath.row{
+        case 0:
+            segueIdintifier = "newtech1"
+        case 1:
+            segueIdintifier = "newtech2"
+        case 2:
+            segueIdintifier = "newtech3"
+        default:
+            segueIdintifier = "newtech1"
+        }
+        self.performSegue(withIdentifier: segueIdintifier, sender: self)
+    }
+    
     
 
     
