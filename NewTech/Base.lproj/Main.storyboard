@@ -264,11 +264,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="urU-yd-Dec">
-                                <rect key="frame" x="246" y="448" width="240" height="128"/>
+                                <rect key="frame" x="250" y="373" width="301" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S6l-yw-3Hh">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seek Wirless Tracker" translatesAutoresizingMaskIntoConstraints="NO" id="S6l-yw-3Hh">
+                                        <rect key="frame" x="0.0" y="0.0" width="301" height="278"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -288,13 +288,23 @@
                     <view key="view" contentMode="scaleToFill" id="P6n-q1-Lpm">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cube Works Self destruction USB 3.0 HUB" translatesAutoresizingMaskIntoConstraints="NO" id="I68-FP-4mq">
+                                <rect key="frame" x="264" y="448" width="240" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WFo-yF-PPJ">
+                                <rect key="frame" x="264" y="448" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mio-Kl-gmS"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFl-sj-8La" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816" y="809"/>
+            <point key="canvasLocation" x="2815.625" y="808.59375"/>
         </scene>
         <!--Newtech3 View Controller-->
         <scene sceneID="Qhn-Uc-oen">
@@ -303,13 +313,23 @@
                     <view key="view" contentMode="scaleToFill" id="iyn-Zf-OlZ">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UPERFECT Portable Monitor" translatesAutoresizingMaskIntoConstraints="NO" id="3qG-90-F51">
+                                <rect key="frame" x="264" y="448" width="240" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="e4F-gJ-CUa">
+                                <rect key="frame" x="264" y="448" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9xc-J5-Y07"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CrX-SZ-TTy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3529" y="809"/>
+            <point key="canvasLocation" x="3528.90625" y="808.59375"/>
         </scene>
         <!--Cool Gadget View Controller-->
         <scene sceneID="iZd-NC-qcV">
@@ -370,6 +390,16 @@
                     <view key="view" contentMode="scaleToFill" id="iB2-Lh-vw5">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Galaxy Fold" translatesAutoresizingMaskIntoConstraints="NO" id="BPQ-PM-8Lo">
+                                <rect key="frame" x="264" y="448" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wf9-Tx-XUS">
+                                <rect key="frame" x="264" y="448" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Prm-Ii-Awr"/>
                     </view>
@@ -385,6 +415,17 @@
                     <view key="view" contentMode="scaleToFill" id="vlN-XW-6Cw">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PNX-DZ-3v9">
+                                <rect key="frame" x="169" y="247" width="431" height="531"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone xs" translatesAutoresizingMaskIntoConstraints="NO" id="IMv-Ej-1a7">
+                                        <rect key="frame" x="0.0" y="0.0" width="431" height="531"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="se1-sH-vOA"/>
                     </view>
@@ -400,13 +441,23 @@
                     <view key="view" contentMode="scaleToFill" id="H6j-OD-nvh">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Google Home Hub" translatesAutoresizingMaskIntoConstraints="NO" id="Cye-hp-Yfw">
+                                <rect key="frame" x="264" y="448" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YQW-Hk-TMJ">
+                                <rect key="frame" x="264" y="448" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="w0a-FU-O3e"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g7P-7E-JuT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3485" y="1499"/>
+            <point key="canvasLocation" x="3484.375" y="1498.828125"/>
         </scene>
         <!--Desktop View Controller-->
         <scene sceneID="Oiv-gG-tOX">
@@ -568,10 +619,16 @@
     <resources>
         <image name="2019 Dell XPS 13 9380" width="263" height="216"/>
         <image name="Apple 27in iMac" width="251" height="201"/>
+        <image name="Cube Works Self destruction USB 3.0 HUB" width="270" height="243"/>
         <image name="CyberPowerPC" width="225" height="225"/>
         <image name="Dell Inspiron Desktop" width="872" height="1587"/>
+        <image name="Galaxy Fold" width="808" height="574"/>
+        <image name="Google Home Hub" width="136" height="99"/>
         <image name="Huawei Matebook X pro signature edition thin and light laptop" width="223" height="216"/>
         <image name="Microsoft surface Laptop 2" width="254" height="216"/>
+        <image name="Seek Wirless Tracker" width="301" height="278"/>
+        <image name="UPERFECT Portable Monitor" width="1000" height="1000"/>
         <image name="homeDesktopImage" width="225" height="225"/>
+        <image name="iphone xs" width="431" height="531"/>
     </resources>
 </document>
