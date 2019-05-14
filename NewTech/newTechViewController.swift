@@ -10,7 +10,7 @@ import UIKit
 
 var newTech = ["Galaxy fold","iPhone XS","Google Home Hub"]
 var newTechImages:[UIImage] = [UIImage(named:"Galaxy Fold")!, UIImage(named: "iphone xs")!, UIImage(named: "Google Home Hub")!]
-var pricesForNewTech = ["$100", "$200", "$300"]
+var pricesForNewTech = ["$1980", "$999.00", "$129.99"]
 
 class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
