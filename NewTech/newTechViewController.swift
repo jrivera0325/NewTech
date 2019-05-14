@@ -19,6 +19,7 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableview4: UITableView!
     override func viewDidLoad() {
         tableview4.dataSource = self
+        tableview4.delegate = self
         super.viewDidLoad()
 
     }

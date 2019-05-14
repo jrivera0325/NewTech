@@ -19,6 +19,7 @@ class laptopViewController: UIViewController,UITableViewDelegate,UITableViewData
     
     override func viewDidLoad() {
         tableView3.dataSource = self
+        tableView3.delegate = self
         super.viewDidLoad()
 
     }
