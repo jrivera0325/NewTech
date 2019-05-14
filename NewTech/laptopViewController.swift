@@ -10,7 +10,7 @@ import UIKit
 
 var laptopModel = ["Huawei Matebook X pro signature edition thin and light laptop", "Microsoft surface Laptop 2", "2019 Dell XPS 13 9380"]
 var laptopImages:[UIImage] = [UIImage(named: "Huawei Matebook X pro signature edition thin and light laptop")!, UIImage(named:"Microsoft surface Laptop 2")!, UIImage(named:"2019 Dell XPS 13 9380")!]
-var pricesForLaptops = ["$100", "$200", "$300"]
+var pricesForLaptops = ["$1073.16", "$899.00", "$1769.00"]
 
 class laptopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
