@@ -8,8 +8,9 @@
 
 import UIKit
 
-var desktopModel = ["Dell Desktop PC Tower System Windows 10", "Dell Dual Monitor Desktop Computer Bundle Windows 10", "Dell Optiplex Windows 10 Professional Desktop Computer Bundle"]
-var desktopImages: [UIImage] = [UIImage(named: "dellDeskTop")!, UIImage(named: "dualMonitor")!, UIImage(named: "dellOptiplex")!]
+var desktopModel = ["Apple - 27inch imac", "Dell - Inspiron Desktop", "CyberPowerPC"]
+var desktopImages: [UIImage] = [UIImage(named: "Apple 27in iMac")!, UIImage(named: "Dell Inspiron Desktop")!, UIImage(named: "CyberPowerPC")!]
+var pricesForDesktops = ["$1599.99", "$836.99", "$1619.99"]
 
 class desktopViewController: UIViewController, UITableViewDataSource,UITableViewDelegate{
     @IBOutlet weak var tableview2: UITableView!
@@ -23,7 +24,7 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let desktopCell = tableview2.dequeueReusableCell(withIdentifier:"desktopCell")! as UITableViewCell
-        desktopCell.textLabel?.text = desktopModel[indexPath.row]
+        desktopCell.textLabel?.text = (desktopModel[indexPath.row] + " - " + pricesForDesktops[indexPath.row])
         desktopCell.imageView?.image = desktopImages[indexPath.row]
         return desktopCell
         

@@ -10,6 +10,7 @@ import UIKit
 
 var newTech = ["Galaxy fold","iPhone XS","Google Home Hub"]
 var newTechImages:[UIImage] = [UIImage(named:"Galaxy Fold")!, UIImage(named: "iphone xs")!, UIImage(named: "Google Home Hub")!]
+var pricesForNewTech = ["$100", "$200", "$300"]
 
 class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
@@ -29,7 +30,7 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let newTechCell = tableview4.dequeueReusableCell(withIdentifier:"newTechCell")! as UITableViewCell
-        newTechCell.textLabel?.text = newTech[indexPath.row]
+        newTechCell.textLabel?.text = (newTech[indexPath.row] + " - " + pricesForNewTech[indexPath.row])
         newTechCell.imageView?.image = newTechImages[indexPath.row]
         return newTechCell
     }

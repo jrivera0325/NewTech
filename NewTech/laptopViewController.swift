@@ -10,6 +10,7 @@ import UIKit
 
 var laptopModel = ["Huawei Matebook X pro signature edition thin and light laptop", "Microsoft surface Laptop 2", "2019 Dell XPS 13 9380"]
 var laptopImages:[UIImage] = [UIImage(named: "Huawei Matebook X pro signature edition thin and light laptop")!, UIImage(named:"Microsoft surface Laptop 2")!, UIImage(named:"2019 Dell XPS 13 9380")!]
+var pricesForLaptops = ["$100", "$200", "$300"]
 
 class laptopViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
@@ -29,7 +30,7 @@ class laptopViewController: UIViewController,UITableViewDelegate,UITableViewData
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let laptopCell = tableView3.dequeueReusableCell(withIdentifier: "laptopCell")! as UITableViewCell
-        laptopCell.textLabel?.text = laptopModel[indexPath.row]
+        laptopCell.textLabel?.text = (laptopModel[indexPath.row] + " - " + pricesForLaptops[indexPath.row] )
         laptopCell.imageView?.image = laptopImages[indexPath.row]
         return laptopCell
         
