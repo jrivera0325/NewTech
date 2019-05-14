@@ -33,6 +33,7 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let segueIdintifier: String
+        print(indexPath.row)
         switch indexPath.row{
         case 0:
             segueIdintifier = "desktop1"
@@ -40,12 +41,13 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
             segueIdintifier = "desktop2"
         case 2:
             segueIdintifier = "desktop3"
-      default:
+        default:
             segueIdintifier = "desktop1"
         }
         self.performSegue(withIdentifier: segueIdintifier, sender: self)
+        
     }
-   
+    
     
     
 }
