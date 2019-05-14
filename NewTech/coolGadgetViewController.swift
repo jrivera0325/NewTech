@@ -16,6 +16,7 @@ var coolGadgetImages: [UIImage] = [UIImage (named: "Seek Wirless Tracker")!, UII
     
     override func viewDidLoad() {
         tableView5.dataSource = self
+        tableView5.delegate = self
         super.viewDidLoad()
 
       

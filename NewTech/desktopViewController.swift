@@ -16,6 +16,7 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
     
     override func viewDidLoad() {
         tableview2.dataSource = self
+        tableview2.delegate = self
         super.viewDidLoad()
         
     }
