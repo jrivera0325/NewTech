@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
    @IBOutlet weak var tableView1: UITableView!
     
-    var text: [String] = ["Desktop","Laptop", "Cool gadgets", "latest tech"]
+    var text: [String] = ["Desktop","Laptop", "Cool gadgets", "New tech"]
     var homeImages: [UIImage] = [UIImage(named: "desktop")!, UIImage(named: "Laptop")!, UIImage(named: "coolGadgets")!, UIImage(named: "latestTech")!]
     
     override func viewDidLoad() {
