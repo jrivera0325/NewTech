@@ -143,6 +143,9 @@
                                         <rect key="frame" x="0.0" y="216" width="223" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
+                                        <connections>
+                                            <action selector="whenButton4Pressed:" destination="73k-ri-SPu" eventType="touchUpInside" id="zIj-uX-Jr5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -176,6 +179,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Click to Buy"/>
+                                <connections>
+                                    <action selector="whenButton5Pressed:" destination="NlG-lB-i9t" eventType="touchUpInside" id="wHv-wV-OwZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -210,6 +216,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Click to Buy"/>
+                                <connections>
+                                    <action selector="whenButton6Pressed:" destination="zZ3-Ma-9za" eventType="touchUpInside" id="4v8-IF-gGH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -295,6 +304,9 @@
                                         <rect key="frame" x="0.0" y="201" width="251" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
+                                        <connections>
+                                            <action selector="whenButton7Pressed:" destination="RY0-MO-3nr" eventType="touchUpInside" id="TtK-5u-co6"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -324,6 +336,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title=" Click to Buy"/>
+                                <connections>
+                                    <action selector="whenButton8Pressed:" destination="vCQ-Uw-7UB" eventType="touchUpInside" id="UQ6-ru-wY5"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WFo-yF-PPJ">
                                 <rect key="frame" x="253" y="463" width="240" height="128"/>
@@ -359,6 +374,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Click to Buy"/>
+                                <connections>
+                                    <action selector="whenButton9Pressed:" destination="huW-wZ-CDS" eventType="touchUpInside" id="oXU-Uj-gOO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -438,6 +456,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Click to Buy"/>
+                                <connections>
+                                    <action selector="whenButton10Pressed:" destination="gZ3-Qc-MBn" eventType="touchUpInside" id="uA2-4W-FQE"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wf9-Tx-XUS">
                                 <rect key="frame" x="264" y="448" width="240" height="128"/>
@@ -471,6 +492,9 @@
                                         <rect key="frame" x="0.0" y="243" width="270" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
+                                        <connections>
+                                            <action selector="whenButton11Pressed:" destination="ceA-W2-bqY" eventType="touchUpInside" id="McI-b1-oJU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -504,6 +528,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Click to Buy"/>
+                                <connections>
+                                    <action selector="whenButton12Pressed:" destination="Pdl-0H-JZA" eventType="touchUpInside" id="9OV-It-EdM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -589,6 +616,9 @@
                                         <rect key="frame" x="0.0" y="201" width="251" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
+                                        <connections>
+                                            <action selector="whenButton1Pressed:" destination="ulj-e6-tCb" eventType="touchUpInside" id="eq1-WQ-RZ1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -624,6 +654,9 @@
                                         <rect key="frame" x="0.0" y="201" width="251" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
+                                        <connections>
+                                            <action selector="whenButton2Pressed:" destination="f1O-tp-kQC" eventType="touchUpInside" id="un1-83-V7f"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -655,6 +688,9 @@
                                         <rect key="frame" x="0.0" y="225" width="225" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
+                                        <connections>
+                                            <action selector="whenButton3Pressed:" destination="O5h-QV-XAS" eventType="touchUpInside" id="sYG-m1-pHW"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
