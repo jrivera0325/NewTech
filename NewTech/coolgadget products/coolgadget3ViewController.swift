@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class coolgadget3ViewController: UIViewController {
 

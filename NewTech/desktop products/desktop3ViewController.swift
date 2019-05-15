@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class desktop3ViewController: UIViewController {
 
