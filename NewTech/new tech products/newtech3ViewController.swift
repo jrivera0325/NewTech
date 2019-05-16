@@ -18,7 +18,11 @@ class newtech3ViewController: UIViewController {
     }
     
     @IBAction func whenButton9Pressed(_ sender: Any) {
+        if let url = URL(string: "https://store.google.com/us/product/google_nest_hub?gclid=EAIaIQobChMInbz0qrmg4gIVhLXACh0dMQwuEAAYAyAAEgLeY_D_BwE&gclsrc=aw.ds#photo-story"){
+        let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
     }
     
    
+}
 }

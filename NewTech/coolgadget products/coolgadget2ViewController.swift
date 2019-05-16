@@ -18,6 +18,10 @@ class coolgadget2ViewController: UIViewController {
     }
     
     @IBAction func whenButton11Pressed(_ sender: Any) {
+        if let url = URL(string: "https://www.thinkgeek.com/product/jujk/"){
+            let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
+        }
     }
     
     
