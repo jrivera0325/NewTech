@@ -18,8 +18,13 @@ class desktop3ViewController: UIViewController {
     }
     
     @IBAction func whenButton3Pressed(_ sender: Any) {
+        if let url = URL(string: "https://www.cyberpowerpc.com/page/Intel/i7/?gclid=EAIaIQobChMI3dve9_qd4gIVHbjACh3qMwF9EAAYASAAEgLvj_D_BwE"){
+        let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
+        
     }
     
    
 
+}
 }
