@@ -18,6 +18,10 @@ class coolgadget3ViewController: UIViewController {
     }
     
     @IBAction func whenButton12Pressed(_ sender: Any) {
+        if let url = URL(string: "https://www.amazon.com/Portable-UPERFECT-Compatible-1920x1080-Raspberry/dp/B07CNNP9LN"){
+            let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
+        }
     }
     
     

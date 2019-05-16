@@ -18,6 +18,11 @@ class newtech1ViewController: UIViewController {
     }
     
     @IBAction func whenButton7Pressed(_ sender: Any) {
+        if let url = URL(string: "https://www.samsung.com/global/galaxy/galaxy-fold/"){
+            let safariViewController = SFSafariViewController(url: url)
+            present(safariViewController, animated: true, completion: nil)
+        }
+        
     }
     
     
