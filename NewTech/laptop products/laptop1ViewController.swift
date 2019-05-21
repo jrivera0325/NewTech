@@ -18,7 +18,7 @@ class laptop1ViewController: UIViewController {
     }
     
     @IBAction func whenButton4Pressed(_ sender: Any) {
-        if let url = URL(string: "https://www.microsoft.com/en-us/store/b/shop-all-pcs?manufacturer=Huawei"){
+        if let url = URL(string: "https://www.amazon.com/Huawei-MateBook-Signature-Laptop-i5-8250U/dp/B07CTKCFFH"){
             let safariViewController = SFSafariViewController(url: url)
             present(safariViewController, animated: true, completion: nil)
         }

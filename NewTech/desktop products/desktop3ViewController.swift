@@ -18,7 +18,7 @@ class desktop3ViewController: UIViewController {
     }
     
     @IBAction func whenButton3Pressed(_ sender: Any) {
-        if let url = URL(string: "https://www.cyberpowerpc.com/page/Intel/i7/?gclid=EAIaIQobChMI3dve9_qd4gIVHbjACh3qMwF9EAAYASAAEgLvj_D_BwE"){
+        if let url = URL(string: "https://www.bestbuy.com/site/cyberpowerpc-gamer-supreme-liquid-cool-gaming-desktop-intel-i7-8700k-16gb-memory-nvidia-geforce-rtx-2060-120gb-ssd-2tb-hdd-black/6128517.p?skuId=6128517"){
         let safariViewController = SFSafariViewController(url: url)
             present(safariViewController, animated: true, completion: nil)
         
