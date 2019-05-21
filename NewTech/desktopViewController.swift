@@ -49,7 +49,6 @@ class desktopViewController: UIViewController, UITableViewDataSource,UITableView
         self.performSegue(withIdentifier: segueIdintifier, sender: self)
         
     }
-    
-    
+
     
 }
