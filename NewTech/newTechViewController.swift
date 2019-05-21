@@ -21,6 +21,8 @@ class newTechViewController: UIViewController,UITableViewDelegate, UITableViewDa
         tableview4.dataSource = self
         tableview4.delegate = self
         super.viewDidLoad()
+        
+    
 
     }
     
