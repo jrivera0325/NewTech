@@ -379,13 +379,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M276PKUL3L;
+				DEVELOPMENT_TEAM = UYCZM45BK5;
 				INFOPLIST_FILE = NewTech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.d214.jhhs.620325.NewTech;
+				PRODUCT_BUNDLE_IDENTIFIER = org.d214.jhhs.62032.NewTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -397,13 +397,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M276PKUL3L;
+				DEVELOPMENT_TEAM = UYCZM45BK5;
 				INFOPLIST_FILE = NewTech/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.d214.jhhs.620325.NewTech;
+				PRODUCT_BUNDLE_IDENTIFIER = org.d214.jhhs.62032.NewTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
