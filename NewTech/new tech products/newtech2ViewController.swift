@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WebKit
 import SafariServices
 
 class newtech2ViewController: UIViewController {
