@@ -8,12 +8,16 @@
 
 import UIKit
 import SafariServices
+import WebKit
 
 class desktop1ViewController: UIViewController {
 
+    @IBOutlet weak var WebViewMac: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let macUrl = URL(string: "https://www.youtube.com/watch?v=dar_brj8zdw")
+        WebViewMac.load(URLRequest(url: macUrl!))
         // Do any additional setup after loading the view.
     }
     
