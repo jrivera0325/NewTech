@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 import SafariServices
-import WebKit
+
 
 class laptop2ViewController: UIViewController {
 
