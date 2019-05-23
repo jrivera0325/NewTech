@@ -16,7 +16,7 @@ class desktop1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let macUrl = URL(string: "https://www.youtube.com/watch?v=dar_brj8zdw")
+        let macUrl = URL(string: "https://www.youtube.com/watch?v=XPIrnAcmCSk")
         WebViewMac.load(URLRequest(url: macUrl!))
         // Do any additional setup after loading the view.
     }

@@ -15,8 +15,10 @@ class desktop3ViewController: UIViewController {
     @IBOutlet weak var webView3: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let cyberUrl = URL(string: "https://www.youtube.com/watch?v=4AugEVBeXPw")
+        webView3.load(URLRequest(url: cyberUrl!))
+        
     }
     
     @IBAction func whenButton3Pressed(_ sender: Any) {

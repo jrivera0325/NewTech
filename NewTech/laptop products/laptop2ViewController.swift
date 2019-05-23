@@ -17,7 +17,8 @@ class laptop2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let microsoftUrl = URL(string: "https://www.youtube.com/watch?v=dwK422sLD-s")
+        webView5.load(URLRequest(url: microsoftUrl!))
     }
     
     @IBAction func whenButton5Pressed(_ sender: Any) {
