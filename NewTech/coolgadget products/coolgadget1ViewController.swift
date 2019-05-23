@@ -12,6 +12,7 @@ import SafariServices
 
 class coolgadget1ViewController: UIViewController {
 
+    @IBOutlet weak var webView10: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -13,6 +13,7 @@ import WebKit
 
 class laptop1ViewController: UIViewController {
 
+    @IBOutlet weak var webView4: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

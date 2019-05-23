@@ -12,6 +12,7 @@ import SafariServices
 
 class newtech1ViewController: UIViewController {
 
+    @IBOutlet weak var webView7: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
