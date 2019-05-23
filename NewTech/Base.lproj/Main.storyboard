@@ -1311,12 +1311,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="FWX-eS-IgT">
-                                <rect key="frame" x="183" y="104" width="402" height="899"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="65" translatesAutoresizingMaskIntoConstraints="NO" id="FWX-eS-IgT">
+                                <rect key="frame" x="183" y="174" width="423" height="800"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bXV-nu-9qK">
-                                        <rect key="frame" x="40.5" y="0.0" width="321" height="218"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="423" height="188"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <wkWebViewConfiguration key="configuration">
                                             <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -1324,14 +1324,14 @@
                                         </wkWebViewConfiguration>
                                     </wkWebView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dell Inspiron Desktop" translatesAutoresizingMaskIntoConstraints="NO" id="tOq-fO-VGR">
-                                        <rect key="frame" x="75.5" y="306" width="251" height="201"/>
+                                        <rect key="frame" x="86" y="253" width="251" height="201"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="251" id="Y0P-bC-LAu"/>
                                             <constraint firstAttribute="height" constant="201" id="jzp-Sy-JCJ"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ejj-as-GjH">
-                                        <rect key="frame" x="0.0" y="595" width="402" height="168"/>
+                                        <rect key="frame" x="10.5" y="519" width="402" height="168"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Operating System - Windows 10 Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVV-hF-IAj">
                                                 <rect key="frame" x="0.0" y="0.0" width="402" height="24"/>
@@ -1378,7 +1378,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2V-Ze-6SL">
-                                        <rect key="frame" x="124.5" y="851" width="153" height="48"/>
+                                        <rect key="frame" x="135" y="752" width="153" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
                                         <connections>
@@ -1407,12 +1407,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="rPZ-9E-IeV">
-                                <rect key="frame" x="147" y="108" width="402" height="817"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="rPZ-9E-IeV">
+                                <rect key="frame" x="183" y="152" width="402" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJk-yi-VLM">
-                                        <rect key="frame" x="13.5" y="0.0" width="375" height="241"/>
+                                        <rect key="frame" x="6.5" y="0.0" width="389" height="177"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <wkWebViewConfiguration key="configuration">
                                             <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -1420,10 +1420,10 @@
                                         </wkWebViewConfiguration>
                                     </wkWebView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CyberPowerPC" translatesAutoresizingMaskIntoConstraints="NO" id="YDj-Qy-ao4">
-                                        <rect key="frame" x="88.5" y="278" width="225" height="225"/>
+                                        <rect key="frame" x="88.5" y="247" width="225" height="225"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="PqL-dw-gQo">
-                                        <rect key="frame" x="0.0" y="540" width="402" height="192"/>
+                                        <rect key="frame" x="0.0" y="542" width="402" height="192"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Storage Types - HDD, SSD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vtG-xf-AF6">
                                                 <rect key="frame" x="0.0" y="0.0" width="402" height="24"/>
@@ -1476,7 +1476,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghh-cV-F7J">
-                                        <rect key="frame" x="124.5" y="769" width="153" height="48"/>
+                                        <rect key="frame" x="124.5" y="804" width="153" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
                                         <connections>

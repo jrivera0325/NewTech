@@ -16,7 +16,8 @@ class laptop3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let XPSUrl = URL(string: "https://www.youtube.com/watch?v=BtpaITyyJfw")
+        webView6.load(URLRequest(url: XPSUrl!))
     }
     
     @IBAction func whenButton6Pressed(_ sender: Any) {
