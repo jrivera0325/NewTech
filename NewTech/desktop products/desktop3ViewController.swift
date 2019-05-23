@@ -12,6 +12,7 @@ import SafariServices
 
 class desktop3ViewController: UIViewController {
 
+    @IBOutlet weak var webView3: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

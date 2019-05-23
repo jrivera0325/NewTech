@@ -11,7 +11,8 @@ import WebKit
 import SafariServices
 
 class desktop2ViewController: UIViewController {
-
+    @IBOutlet weak var webView2: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
