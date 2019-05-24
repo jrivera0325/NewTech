@@ -10,11 +10,15 @@ import UIKit
 import WebKit
 import SafariServices
 
-class coolgadget3ViewController: UIViewController {
+class coolgadget3ViewController: UIViewController, WKNavigationDelegate {
 
     @IBOutlet weak var webView12: WKWebView!
     override func viewDidLoad() {
+        webView12 = WKWebView()
+        webView12.navigationDelegate = self
         super.viewDidLoad()
+        let url = URL(string: "https://www.youtube.com/watch?v=gT9XlckNHWY")!
+        webView12.load(URLRequest(url: url))
 
         // Do any additional setup after loading the view.
     }
@@ -25,6 +29,8 @@ class coolgadget3ViewController: UIViewController {
             present(safariViewController, animated: true, completion: nil)
         }
     }
-    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        title = webView12.title
+    }
     
 }
