@@ -132,7 +132,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="84" translatesAutoresizingMaskIntoConstraints="NO" id="UHC-O2-NCU">
-                                <rect key="frame" x="213" y="82" width="442" height="708"/>
+                                <rect key="frame" x="213" y="82" width="442" height="908"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wai-KJ-Z3R">
@@ -144,10 +144,10 @@
                                         </wkWebViewConfiguration>
                                     </wkWebView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Huawei Matebook X pro signature edition thin and light laptop" translatesAutoresizingMaskIntoConstraints="NO" id="O5t-8I-ktC">
-                                        <rect key="frame" x="213" y="284" width="16" height="16"/>
+                                        <rect key="frame" x="109.5" y="284" width="223" height="216"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cYH-Zm-xHb">
-                                        <rect key="frame" x="50" y="384" width="342" height="192"/>
+                                        <rect key="frame" x="50" y="584" width="342" height="192"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Size - 13.9 inches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93t-mZ-2Og">
                                                 <rect key="frame" x="61" y="0.0" width="220.5" height="24"/>
@@ -200,7 +200,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAw-IH-1YK">
-                                        <rect key="frame" x="144.5" y="660" width="153" height="48"/>
+                                        <rect key="frame" x="144.5" y="860" width="153" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
                                         <connections>
@@ -230,7 +230,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="gcu-Aw-3np">
-                                <rect key="frame" x="163" y="141" width="442" height="542"/>
+                                <rect key="frame" x="163" y="141" width="442" height="742"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c0y-Cm-h3K">
@@ -242,10 +242,10 @@
                                         </wkWebViewConfiguration>
                                     </wkWebView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Microsoft surface Laptop 2" translatesAutoresizingMaskIntoConstraints="NO" id="hdY-4Z-dwk">
-                                        <rect key="frame" x="0.0" y="218" width="442" height="16"/>
+                                        <rect key="frame" x="0.0" y="218" width="442" height="216"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="tcA-7Q-nrq">
-                                        <rect key="frame" x="0.0" y="252" width="442" height="224"/>
+                                        <rect key="frame" x="0.0" y="452" width="442" height="224"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Size - 13.5 inches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0L-yF-Gf6">
                                                 <rect key="frame" x="111" y="0.0" width="220.5" height="24"/>
@@ -304,7 +304,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLM-3f-mAg">
-                                        <rect key="frame" x="0.0" y="494" width="442" height="48"/>
+                                        <rect key="frame" x="0.0" y="694" width="442" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Click to Buy"/>
                                         <connections>
@@ -596,7 +596,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillProportionally" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="WFo-yF-PPJ">
-                                <rect key="frame" x="77" y="64" width="614.5" height="445"/>
+                                <rect key="frame" x="77" y="64" width="614.5" height="960"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0N4-8M-Wah">
@@ -608,10 +608,10 @@
                                         </wkWebViewConfiguration>
                                     </wkWebView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone xs" translatesAutoresizingMaskIntoConstraints="NO" id="I68-FP-4mq">
-                                        <rect key="frame" x="299.5" y="187" width="16" height="16"/>
+                                        <rect key="frame" x="92" y="187" width="431" height="531"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WXt-qn-uBh">
-                                        <rect key="frame" x="0.0" y="204" width="614.5" height="192"/>
+                                        <rect key="frame" x="0.0" y="719" width="614.5" height="192"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Size Folded - 4.6 inches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejM-vU-VWp">
                                                 <rect key="frame" x="169.5" y="0.0" width="275.5" height="24"/>
@@ -664,7 +664,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Aq-7u-n1P">
-                                        <rect key="frame" x="228" y="397" width="159" height="48"/>
+                                        <rect key="frame" x="228" y="912" width="159" height="48"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title=" Click to Buy"/>
                                         <connections>
