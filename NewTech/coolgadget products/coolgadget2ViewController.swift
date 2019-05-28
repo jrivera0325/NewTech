@@ -10,16 +10,14 @@ import UIKit
 import WebKit
 import SafariServices
 
-class coolgadget2ViewController: UIViewController, WKNavigationDelegate {
+class coolgadget2ViewController: UIViewController {
 
     @IBOutlet weak var webView11: WKWebView!
     override func viewDidLoad() {
-        webView11 = WKWebView()
-        webView11.navigationDelegate = self
-        super.viewDidLoad()
-        let url = URL(string: "https://www.youtube.com/watch?v=T0oyz0tN68k")!
-        webView11.load(URLRequest(url: url))
-
+    super.viewDidLoad()
+      
+        let coolGadget2 = URL(string: "https://www.youtube.com/watch?v=T0oyz0tN68k")
+        webView11.load(URLRequest(url: coolGadget2!))
         // Do any additional setup after loading the view.
     }
     
@@ -28,10 +26,6 @@ class coolgadget2ViewController: UIViewController, WKNavigationDelegate {
             let safariViewController = SFSafariViewController(url: url)
             present(safariViewController, animated: true, completion: nil)
         }
-    }
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        title = webView11.title
    
-    }
-    
+}
 }

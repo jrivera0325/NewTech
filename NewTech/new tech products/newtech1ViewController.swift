@@ -10,16 +10,15 @@ import UIKit
 import WebKit
 import SafariServices
 
-class newtech1ViewController: UIViewController, WKNavigationDelegate {
+class newtech1ViewController: UIViewController {
 
     @IBOutlet weak var webView7: WKWebView!
     override func viewDidLoad() {
-        webView7 = WKWebView()
-        webView7.navigationDelegate = self
-        super.viewDidLoad()
-    let url = URL(string: "https://www.youtube.com/watch?v=VSqkL31w69k")!
-        webView7.load(URLRequest(url: url))
-
+       super.viewDidLoad()
+        
+        let newTech1 = URL(string: "https://www.youtube.com/watch?v=VSqkL31w69k")
+        webView7.load(URLRequest(url: newTech1!))
+    
         // Do any additional setup after loading the view.
     }
     
@@ -29,9 +28,7 @@ class newtech1ViewController: UIViewController, WKNavigationDelegate {
             present(safariViewController, animated: true, completion: nil)
         }
         
-    }
-    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        title = webView7.title
+ 
 }
     
 }
