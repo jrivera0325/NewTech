@@ -18,7 +18,7 @@ class desktop1ViewController: UIViewController {
         
         let macUrl = URL(string: "https://www.youtube.com/watch?v=XPIrnAcmCSk")
         WebViewMac.load(URLRequest(url: macUrl!))
-        // Do any additional setup after loading the view.
+
     }
     
     @IBAction func whenButton1Pressed(_ sender: Any) {
