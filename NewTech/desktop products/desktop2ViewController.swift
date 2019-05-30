@@ -17,7 +17,7 @@ class desktop2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let dellUrl = URL(string: "https://www.youtube.com/embed/1VzfhgU3Ipk")
+        let dellUrl = URL(string: "https://www.youtube.com/watch?v=1VzfhgU3Ipk")
         webView2.load(URLRequest(url: dellUrl!))
 
     }

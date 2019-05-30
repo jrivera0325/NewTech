@@ -17,7 +17,7 @@ class laptop1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let mateBookUrl = URL(string: "https://www.youtube.com/watch?v=TC3jMXJ_Vjc")
+        let mateBookUrl = URL(string: "https://www.youtube.com/watch?time_continue=1&v=TC3jMXJ_Vjc")
         webView4.load(URLRequest(url: mateBookUrl!))
         // Do any additional setup after loading the view.
     }
